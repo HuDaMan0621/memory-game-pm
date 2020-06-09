@@ -3,13 +3,22 @@
     height: 80px;
     margin: 3px;
     border-radius: 5px;
-    border-style: solid, 3px, black;
     cursor: pointer;
     background: repeating-linear-gradient( 45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+    border: 5px solid #193D49;
+    
+
 }
 
 .Logo{
     width: 60px;
     padding-top: 11px;
-    /* background-color: aqua; */
+}
+
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    background-color: #2196F3;
+    padding: 10px;
 }

@@ -10,15 +10,27 @@ function App() {
         <h1>Memory Game</h1>
         <h4>Match Cards to win</h4>
       </header>
-      <div className="MemoryCard">
-        <img src={ Logo } class="Logo" alt="image"></img></div>
-        <div className="MemoryCard">
-        <img src={ Logo } class="Logo" alt="image"></img></div><div className="MemoryCard">
-        <img src={ Logo } class="Logo" alt="image"></img></div><div className="MemoryCard">
-        <img src={ Logo } class="Logo" alt="image"></img></div><div className="MemoryCard">
-        <img src={ Logo } class="Logo" alt="image"></img></div>
+      <div class="grid-container">
+
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+      </div>
+
     </div>
-    
   );
 }
 
