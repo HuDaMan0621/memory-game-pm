@@ -1,6 +1,6 @@
 import React from 'react';
-import MemoryCard from './Component/MemoryCard';
-
+import MemoryCard from './component/MemoryCard.jsx';
+import Logo from '../src/dg.png';
 import './App.css';
 
 function App() {
@@ -11,9 +11,14 @@ function App() {
         <h4>Match Cards to win</h4>
       </header>
       <div className="MemoryCard">
-        <h1>Cards</h1>
-      </div>
+        <img src={ Logo } class="Logo" alt="image"></img></div>
+        <div className="MemoryCard">
+        <img src={ Logo } class="Logo" alt="image"></img></div><div className="MemoryCard">
+        <img src={ Logo } class="Logo" alt="image"></img></div><div className="MemoryCard">
+        <img src={ Logo } class="Logo" alt="image"></img></div><div className="MemoryCard">
+        <img src={ Logo } class="Logo" alt="image"></img></div>
     </div>
+    
   );
 }
 
