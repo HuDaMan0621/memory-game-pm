@@ -11,25 +11,105 @@ function App() {
         <h4>Match Cards to win</h4>
       </header>
       <div class="grid-container">
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
-        <div className="MemoryCard"><img src={Logo} className="Logo" alt="bg" /></div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
+        <div className="MemoryCard">
+          <div className="MemoryCard_inner">
+            <div className="MemoryCard_back"><img src={Logo} className="Logo" alt="bg" /></div>
+            <div className="MemoryCard_front">∆</div>
+          </div>
+        </div>
       </div>
 
-    </div>
+    </div >
   );
 }
 

@@ -1,11 +1,41 @@
 .MemoryCard {
     width: 150px;
     height: 80px;
-    margin: 3px;
+    margin: 5px;
     border-radius: 5px;
     cursor: pointer;
     background: repeating-linear-gradient( 45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
     border: 5px solid #193D49;
+    position: relative;
+    perspective: 800px;
+}
+
+.MemoryCard_inner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 5px;
+    border: 3px solid #193D49;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.MemoryCard_front .MemoryCard_back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+/* .MemoryCard_back {
+    background: repeating-linear-gradient( 45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+} */
+
+.MemoryCard_front {
+    font-size: 30px;
+    padding-top: 20p;
+    transform: rotateY(180deg);
 }
 
 .Logo {
@@ -21,13 +51,6 @@
     padding: 10px;
 }
 
-.MemoryCard_back {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transform-style: preserve-3d;
-    -webkit-transition: 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border-radius: 6px;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
+.flipped{
+    transform:rotateY(180deg);
 }
